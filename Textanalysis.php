@@ -184,7 +184,6 @@ class Textanalysis {
                     } else {
                         $strFirstLetter = $this->substring($arrWords[$i], 0, 1);
                         if ($strFirstLetter !== $this->upper_case($strFirstLetter)) {
-                            // First letter is lower case. Count it.
                             $intLongWordCount++;
                         }
                     }
